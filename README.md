@@ -37,4 +37,4 @@ The conditional formatting rules are shown in this illustration below, with the 
 
 Here is an example look that can be created using customized formats:
 
-~[Customized formatting example](example-customization.png)
+![Customized formatting example](example-customization.png)
