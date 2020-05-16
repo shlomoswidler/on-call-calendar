@@ -34,3 +34,7 @@ Everything about the formatting can be customized to your liking — row heights
 The conditional formatting rules are shown in this illustration below, with the annotated numbers referring to the areas on the image above:
 
 ![Annotated Conditional Formatting rules](cf-rules.png)
+
+Here is an example look that can be created using customized formats:
+
+~[Customized formatting example](example-customization.png)
