@@ -38,3 +38,7 @@ The conditional formatting rules are shown in this illustration below, with the 
 Here is an example look that can be created using customized formats:
 
 ![Customized formatting example](example-customization.png)
+
+## Tip on viewing diffs between Excel file versions
+
+Check out [xltrail](https://xltrail.com/) for a Github-integrated tool to view Excel file diffs.
