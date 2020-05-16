@@ -1,19 +1,21 @@
 # on-call-calendar
-Create on-call assignments in a calendar interface
+Create on-call assignments in a skinnable calendar interface
 
 ## What it is
 
 A tool to record on call assignments. The period of time is chosen by the user. Holidays can be marked and assigned in advance.
 
-The spreadsheet is intended for you to apply any custom formatting you like. It looks like this, out of the box:
+The spreadsheet is intended for you to apply any skin (custom formatting) you like. It looks like this, out of the box:
 
 ![Screenshot of the spreadsheet](raw-screenshot.png)
 
 ## Why use it
 
-You have a pool of people who need to be on call, and you want to assign one person to cover each day. You also want to dole out assignments remotely but share the view of this calendar among all participants — perhaps via screen sharing or via a shared office.com file — so everyone can see the assignments as they are created.
+You have a pool of people who need to be on call, and you want to assign one person to cover each day. You also want to dole out assignments remotely but share the view of this calendar among all participants — perhaps via screen sharing or via a shared office.com file — so everyone can see the assignments as they are created. You may also want to adhere to your organiztion's visual branding guidelines.
 
 ## How to use
+
+### Functionality
 
 The date range shown on the calendar is customizable, up to 12 weeks in length. Enter the start date and the end date at the top in cells C3 and C4 and the calendar will be generated in the grid below. If you enter a date range that would extend beyond the 12-week display area a warning message will appear in cells B5:C5.
 
@@ -25,17 +27,17 @@ To assign a day to a person, enter that person's name in the cell immediately be
 
 When you want to work on a new calendar range, be sure to clear all the assignments that are left over from the prior use. Excel's **Clear contents** menu item is helpful here.
 
-## How to customize
+### Skinning
 
-Everything about the formatting can be customized to your liking — row heights, columns widths, cell formats, and conditional formatting — using all of Excel's formatting tools. Conditional formatting rules control several areas of the display, indicated in this image:
+Everything about the formatting can be customized to your liking — row heights, columns widths, cell formats, and conditional formatting — using all of Excel's formatting tools. Conditional formatting rules control several areas of the display, indicated by blue annotated numbers in this image:
 
 ![Annotated spreadsheet conditionally formatted areas](annotated-screenshot.png)
 
-The conditional formatting rules are shown in this illustration below, with the annotated numbers referring to the areas on the image above:
+The conditional formatting rules are shown in this illustration below, with the blue annotated numbers referring to the areas on the image above:
 
 ![Annotated Conditional Formatting rules](cf-rules.png)
 
-Here is an example look that can be created using customized formats:
+Here is an example skin that can be created using customized formats:
 
 ![Customized formatting example](example-customization.png)
 
